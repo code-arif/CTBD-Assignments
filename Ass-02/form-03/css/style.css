@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    /* background:  #411208 ; */
+
+}
+
+.login-box {
+    position:absolute;
+    top: 10%;
+    left: 30%;
+    bottom: 10%;
+    /* margin-top: 50px; */
+    width: 80vh;
+    height: min-content;
+    padding: 50px 30px 50px 30px;
+    background:   #0281b1  ;
+    /* box-sizing: border-box; */
+    border: transparent;
+    /* box-shadow: 0 5px 25px  #b71403 ; */
+    border-radius: 10px;
+    
+}
+
+.login-box h2 {
+    color: rgb(253, 253, 253);
+    font-size: 40px;
+    margin: 0 0 30px;
+    text-align: center;
+
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 7px 7px 7px 7px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(10, 0, 0);
+    margin-bottom: 10px;
+    border: none;
+    /* border: 1px solid rgb(206, 206, 33); */
+    background: #d8d3d454;
+
+}
+
+.login-box .user-box input:focus {
+    background-color: #bebabcb4;
+    outline: none;
+    /* border: none; */
+    /* border: 1px solid red; */
+
+}
+
+.login-box .user-box label {
+
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-bottom: 100px; */
+    color: rgb(253, 253, 252);
+    font-style: sans-serif;
+
+}
+
+.login-box form .a {
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(253, 253, 252);
+    /* align-items: center; */
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: .2s;
+
+
+}
+
+.login-box form .a:hover {
+    background: #e6dfe1;
+    color: #0281b1;
+}
+
+.user-box textarea{
+    font-size: 12px;
+    width: 100%;
+    margin: 5px 0px 10px 0px ;
+    padding: 10px 5px;
+    border: none;
+    background: #3F2E34;
+}
+
+
+.user-box textarea:focus{
+    background: #3F2E34;
+    outline: none;
+}
+
+
+
+.padding-top{
+    padding-top: 50px;
+}

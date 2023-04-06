@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* START Ragister.php and login.php style  */
+
+
+body {
+    font-family: sans-serif;
+    background: #311E25;
+
+}
+
+.login-box {
+    position: absolute;
+    margin-top: 50px;
+    height: 80vh;
+    left: 30%;
+    width: 80vh;
+    padding: 50px 30px 50px 30px;
+    background: #311E25;
+    box-sizing: border-box;
+    box-shadow: 0 5px 25px rgb(206, 206, 33);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    color: rgb(206, 206, 33);
+    font-size: 40px;
+    margin: 0 0 30px;
+    text-align: center;
+
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(206, 206, 33);
+    margin-bottom: 15px;
+    border: none;
+    background: #3F2E34;
+
+}
+
+.input {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(206, 206, 33);
+    margin-bottom: 15px;
+    border: none;
+    background: #3F2E34;
+}
+
+
+
+.login-box .user-box input:focus {
+    background-color: #3F2E34;
+    outline: none;
+
+}
+
+.login-box .user-box label {
+
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(206, 206, 33);
+    font-style: sans-serif;
+
+}
+
+.btn-box input {
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #3F2E34;
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgb(206, 206, 33);
+
+}
+
+.login-box form a:hover {
+    background: rgb(206, 206, 33);
+    cursor: pointer;
+}
+
+.login_output_error {
+    color: rgb(243, 6, 6);
+    padding-top: 5px;
+
+}
+
+.login_output_success {
+    color: rgb(206, 206, 33);
+}
+
+.account_needed {
+    color: rgb(206, 206, 33);
+}
+
+
+
+
+/* END Ragister.php and login.php style */
+
+
+/* START index.php style */
+
+/* START Navbar */
+.sec-01-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.sec-01-ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 15px;
+
+}
+
+.sec-01-a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: 700;
+    padding: 0px 0px;
+    border: 1px solid wheat;
+    background-color: #311E25;
+}
+
+.sec-01-ul li {
+    display: inline-block;
+}
+
+.sec-01-logo a {
+    color: wheat;
+    font-size: 30px;
+}
+
+/* END navbar */
+
+
+body {
+    background-color: #311E25;
+}
+
+.sec-01 {
+    background-color: #3F2E34;
+    margin: 20px 30px 10px 30px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: rgb(206, 206, 33);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sec-02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 30px 20px 30px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.sec-02-left {
+    flex-basis: 20%;
+    height: min-content;
+    margin-right: 5px;
+    padding: 20px 0px 20px 0px;
+    background-color: #3F2E34;
+}
+
+.sec-02-right {
+    flex-basis: 78%;
+    color: rgb(206, 206, 33);
+    height: min-content;
+    margin-left: 5px;
+    padding: 20px 0px 20px 0px;
+    background-color: #3F2E34;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.desclaimar-paragraph {
+    background: fixed;
+    color: aliceblue;
+    padding: 20px 15px 20px 15px;
+    border-top: 1px solid rgb(206, 206, 33);
+}
+
+
+
+.question-heading {
+    color: rgb(206, 206, 33);
+    text-align: center;
+    border-bottom: 1px solid rgb(206, 206, 33);
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+
+.all_question_title_list {
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+.show_question {
+    /* background: #311E25; */
+    background-color: #311E25;
+    padding: 7px 0px 7px 10px;
+    margin-right: 50px;
+}
+
+
+.show_question a {
+    color: rgb(206, 206, 33);
+    text-decoration: none;
+    padding-left: 15px;
+
+}
+
+.all_question_title_list small {
+    color: aliceblue;
+    margin-top: 20px;
+    /* padding-left: 35px; */
+}
+
+
+.menu-list {
+    list-style: none;
+    padding-top: 20px;
+    overflow-y: scroll;
+    height: 85vh;
+
+}
+
+.menu-list a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.menu-list li i {
+    color: rgb(206, 206, 33);
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.menu-name {
+    padding: 5px 0px 5px 40px;
+}
+
+.logo {
+    color: rgb(206, 206, 33);
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 25px; */
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid rgb(206, 206, 33);
+}
+
+
+/* END index.php style */
+
+/* START Add Question */
+
+.question-box {
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    height: min-content;
+    width: 60%;
+    padding: 50px 30px 50px 30px;
+    background: #311E25;
+    box-sizing: border-box;
+    box-shadow: 0 5px 25px rgb(206, 206, 33);
+    border-radius: 10px;
+}
+
+
+.box-caption {
+    color: rgb(206, 206, 33);
+    font-size: 40px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(206, 206, 33);
+    margin-bottom: 15px;
+    border: none;
+    background: #3F2E34;
+}
+
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(206, 206, 33);
+    font-style: sans-serif;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(206, 206, 33);
+    font-style: sans-serif;
+}
+
+
+
+.tiny-cloud {
+    margin-top: 25px;
+}
+
+
+
+/* END Add Question */
+
+.question-submission {
+    color: red;
+}
+
+
+
+/* START question_detail */
+
+.question_details_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 30px 20px 30px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.question_details_container_left {
+    flex-basis: 73%;
+    color: rgb(206, 206, 33);
+    height: min-content;
+    margin-left: 5px;
+    padding: 20px 20px 20px 20px;
+    background-color: #3F2E34;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.comment_box{
+    width:900px;
+    margin-top: 20px;
+    /* margin: auto; */
+}
+
+
+.comment_box form button{
+    color: rgb(206, 206, 33);
+    padding: 5px 15px 5px 15px ;
+    margin-top: 20px;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgb(206, 206, 33);
+    border-radius: 25px;
+    display: inline-block;
+}
+
+
+
+
+.question_details_container_right {
+    flex-basis: 25%;
+    height: min-content;
+    padding: 20px 0px 20px 0px;
+    background-color: #3F2E34;
+}
+
+.show_question_details {
+    background-color: #311E25;
+    padding: 40px 20px 40px 20px;
+    border-left: 5px solid rgb(206, 206, 33);
+    margin: 38px 0px 20px 0px ;
+}
+
+.show_question_details h3 {
+    color: aliceblue;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.show_question_details p {
+    color: rgb(206, 206, 33);
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+.recent_question {
+    color: rgb(206, 206, 33);
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 25px; */
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid rgb(206, 206, 33);
+}
+
+.show_recent_question {
+    /* color: rgb(233, 233, 158); */
+    padding: 20px 10px 20px 10px;
+    font-size: 18px;
+    overflow-y: scroll;
+    height: 85vh;
+}
+
+.show_question_bg{
+    background-color: #311E25;
+    padding: 7px 7px 7px 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    color: yellow;
+    border-left: 3px solid rgb(206, 206, 33);
+}
+
+.recent{
+    color: rgb(206, 206, 33);
+}
+.recent a{
+    color: rgb(206, 206, 33);
+    text-decoration: none;
+}
+
+
+.back_to_home {
+    color: rgb(206, 206, 33);
+    border: 2px solid rgb(206, 206, 33);
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+
+}
+
+.back_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* END questions details*/
+
+.update_delete{
+    text-align: right;
+    padding:20px 15px 15px 0px;
+    font-size: 15px;
+}

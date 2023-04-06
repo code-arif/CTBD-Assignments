@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    /* background: yellow; */
+}
+
+.body-color {
+    min-height: 100vh;
+    background: #2e2e45;
+    display: flex;
+}
+
+
+
+.users-box h2 {
+    color: rgb(206, 206, 33);
+    font-size: 40px;
+    margin: 0 0 20px;
+    text-align: center;
+
+}
+
+
+.users-box {
+    /* position: relative; */
+    background: #2d2f38e5;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 100vh;
+    padding: 50px 30px 50px 30px;
+    box-sizing: border-box;
+    /* box-shadow: 0 5px 25px rgb(206, 206, 33); */
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.form-handel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.user-box input {
+    flex-basis: 48%;
+    /* width: 50%; */
+    padding: 10px 0px 10px 10px;
+    /* margin-top: 10px; */
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: none;
+    background:#6669774d;
+    color: rgb(192, 192, 69);
+}
+
+.sum{
+    color: yellow;
+}
+
+
+.user-box input:focus {
+    outline: none;
+    color: white;
+}
+
+.user-box label {
+
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-bottom: 100px; */
+    color: rgb(206, 206, 33);
+    font-style: sans-serif;
+
+}
+
+.button {
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(241, 241, 35);
+    padding: 4px 20px;
+    background: transparent;
+    border: 1px solid rgb(231, 231, 51);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+
+
+
+.users-box::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg, rgb(12, 212, 45), rgb(243, 5, 5), rgb(11, 215, 241));
+    background-size: 200% 200%;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    z-index: -2;
+    filter: blur(20px);
+    animation: glowing 1s ease infinite;
+
+
+
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0% 25%;
+    }
+
+
+    50% {
+        background-position: 20% 50%;
+    }
+
+    75% {
+        background-position: 0% 75%;
+    }
+
+    100% {
+        background-position: 75% 100%;
+    }
+}
+
+.output-sum{
+    flex-basis: 48%;
+    /* width: 50%; */
+    padding: 10px 0px 10px 10px;
+    /* margin-top: 10px; */
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: none;
+    background:#6669774d;
+    color: rgb(192, 192, 69);
+}
