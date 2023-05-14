@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --bg-color:#151515;
+    --second-bg-color: #2e2f34;
+    --text-color: #fff;
+    --main-color: #f89f37;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: min-content;
+    padding: 10rem 9% 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin-right: 5px;
+}
+
+
+/* navbar style START */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 3rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+
+.navbar .btn{
+    color: var(--bg-color);
+}
+/* navbar style END */
+
+
+/* Home design START */
+.card{
+    /*background: var(--second-bg-color);*/
+    width: 100%;
+    height:min-content;
+    /*display: flex;*/
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.taskCreateMessage,
+.deleteMessage,
+.successMessage {
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.taskCreateMessage{
+    color:var(--main-color);
+    background: var(--second-bg-color);
+}
+
+.successMessage{
+    color:var(--bg-color);
+    background: var(--main-color);
+}
+
+.deleteMessage{
+    color:var(--bg-color);
+    background: red;
+}
+
+
+.task-show{
+    padding: 20px 50px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid var(--second-bg-color);
+}
+
+.task-info{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 0px;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.task-id{
+    background: var(--second-bg-color);
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+.pending-btn{
+    background: var(--second-bg-color);
+    color: var(--main-color);
+}
+
+.delete-btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: red;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.delete-btn:hover{
+    box-shadow: none;
+}
+
+
+.navbar .btn:hover,
+.btn:hover,
+.delete-btn:hover{
+    color:var(--text-color);
+}
+
+.task-title h2{
+    font-size: 22px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.task-details p{
+    font-size: 1.5rem;
+}
+
+
+
+.answer-icon{
+    font-size: 20px;
+}
+
+
+/* Home design END */
+
+
+
+/* contact desing Start */
+
+
+span {
+    color: var(--main-color);
+}
+
+.task-management{
+    /*width: 32vw;*/
+    flex-basis: 45%;
+}
+
+
+.contact h2 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input {
+    width: 100%;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* contact desing End */
+
+
+/*footer section design START*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    font-size: 1.5rem;
+    float: none;
+}
+/*footer section design END */
+
+
